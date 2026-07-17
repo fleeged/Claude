@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fleeged-plugins",
+  "owner": {
+    "name": "fleeged"
+  },
+  "description": "Personal Claude Code plugin marketplace for fleeged/Claude.",
+  "plugins": [
+    {
+      "name": "example-plugin",
+      "displayName": "Example Plugin (placeholder)",
+      "description": "Placeholder entry showing how to source a plugin from the official Anthropic plugin directory via git-subdir. Replace 'path' with a real plugin directory from anthropics/claude-plugins-official (e.g. 'plugins/<plugin-name>' or 'external_plugins/<plugin-name>'), or remove this entry entirely and add your own plugins under ./plugins/.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "anthropics/claude-plugins-official",
+        "path": "plugins/<plugin-directory-name>",
+        "ref": "main"
+      }
+    }
+  ]
+}
