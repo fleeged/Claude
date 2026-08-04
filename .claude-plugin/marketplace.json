@@ -129,12 +129,7 @@
       "name": "creating-financial-models",
       "description": "Advanced financial modeling suite with DCF analysis, sensitivity testing, Monte Carlo simulations, and scenario planning for investment decisions.",
       "version": "1.0.0",
-      "source": {
-        "source": "git-subdir",
-        "url": "fleeged/Claude",
-        "path": "plugins/creating-financial-models",
-        "ref": "claude/plugins-official-pko72i"
-      },
+      "source": "./plugins/creating-financial-models",
       "author": {
         "name": "Anthropic"
       },
