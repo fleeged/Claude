@@ -1,0 +1,9 @@
+{
+  "name": "creating-financial-models",
+  "description": "Advanced financial modeling suite with DCF analysis, sensitivity testing, Monte Carlo simulations, and scenario planning for investment decisions.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic"
+  },
+  "keywords": ["finance", "dcf", "valuation", "monte-carlo", "sensitivity-analysis"]
+}

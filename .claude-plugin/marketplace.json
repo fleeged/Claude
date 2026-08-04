@@ -124,6 +124,22 @@
       },
       "category": "finance",
       "keywords": ["data", "reference-data", "market-data", "integration", "data-quality"]
+    },
+    {
+      "name": "creating-financial-models",
+      "description": "Advanced financial modeling suite with DCF analysis, sensitivity testing, Monte Carlo simulations, and scenario planning for investment decisions.",
+      "version": "1.0.0",
+      "source": {
+        "source": "git-subdir",
+        "url": "fleeged/Claude",
+        "path": "plugins/creating-financial-models",
+        "ref": "claude/plugins-official-pko72i"
+      },
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "finance",
+      "keywords": ["finance", "dcf", "valuation", "monte-carlo", "sensitivity-analysis"]
     }
   ]
 }
