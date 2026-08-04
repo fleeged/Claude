@@ -1,2 +1,6 @@
 # Upstream repo cloned locally for reference, not vendored here
 claude-cookbooks/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
