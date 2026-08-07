@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-equity-research-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "quant-sentiment-ai/claude-equity-research"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "trading-ideas@claude-equity-research-marketplace": true
+  }
+}
