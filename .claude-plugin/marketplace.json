@@ -12,7 +12,7 @@
       "version": "1.0.0",
       "source": {
         "source": "git-subdir",
-        "url": "JoelLewis/finance_skills",
+        "url": "https://github.com/JoelLewis/finance_skills.git",
         "path": "plugins/core",
         "ref": "main"
       },
@@ -29,7 +29,7 @@
       "version": "1.0.0",
       "source": {
         "source": "git-subdir",
-        "url": "JoelLewis/finance_skills",
+        "url": "https://github.com/JoelLewis/finance_skills.git",
         "path": "plugins/wealth-management",
         "ref": "main"
       },
@@ -46,7 +46,7 @@
       "version": "1.0.0",
       "source": {
         "source": "git-subdir",
-        "url": "JoelLewis/finance_skills",
+        "url": "https://github.com/JoelLewis/finance_skills.git",
         "path": "plugins/compliance",
         "ref": "main"
       },
@@ -63,7 +63,7 @@
       "version": "1.0.0",
       "source": {
         "source": "git-subdir",
-        "url": "JoelLewis/finance_skills",
+        "url": "https://github.com/JoelLewis/finance_skills.git",
         "path": "plugins/advisory-practice",
         "ref": "main"
       },
@@ -80,7 +80,7 @@
       "version": "1.0.0",
       "source": {
         "source": "git-subdir",
-        "url": "JoelLewis/finance_skills",
+        "url": "https://github.com/JoelLewis/finance_skills.git",
         "path": "plugins/trading-operations",
         "ref": "main"
       },
@@ -97,7 +97,7 @@
       "version": "1.0.0",
       "source": {
         "source": "git-subdir",
-        "url": "JoelLewis/finance_skills",
+        "url": "https://github.com/JoelLewis/finance_skills.git",
         "path": "plugins/client-operations",
         "ref": "main"
       },
@@ -114,7 +114,7 @@
       "version": "1.0.0",
       "source": {
         "source": "git-subdir",
-        "url": "JoelLewis/finance_skills",
+        "url": "https://github.com/JoelLewis/finance_skills.git",
         "path": "plugins/data-integration",
         "ref": "main"
       },
@@ -124,6 +124,26 @@
       },
       "category": "finance",
       "keywords": ["data", "reference-data", "market-data", "integration", "data-quality"]
+    },
+    {
+      "name": "trading-ideas",
+      "description": "Institutional-grade equity research reports via the /trading-ideas:research command. Analyzes company financials, technical indicators, market positioning, and insider activity, and returns BUY/SELL/HOLD recommendations with price targets.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/quant-sentiment-ai/claude-equity-research.git",
+        "path": "commands/trading-ideas",
+        "ref": "main"
+      },
+      "author": {
+        "name": "quant-sentiment-ai",
+        "email": "quant.sentiment.ai@gmail.com"
+      },
+      "homepage": "https://github.com/quant-sentiment-ai/claude-equity-research",
+      "repository": "https://github.com/quant-sentiment-ai/claude-equity-research",
+      "license": "MIT",
+      "category": "finance",
+      "keywords": ["equity-research", "trading", "stock-analysis", "fundamental-analysis", "technical-analysis"]
     }
   ]
 }
