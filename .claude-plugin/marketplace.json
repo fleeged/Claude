@@ -7,6 +7,17 @@
   "description": "Personal Claude Code plugin marketplace for fleeged/Claude.",
   "plugins": [
     {
+      "name": "financial-modeling",
+      "description": "DCF valuation, sensitivity analysis, scenario planning, and Monte Carlo simulation for investment and project decisions. Executable Python models, not guidance only.",
+      "version": "1.0.0",
+      "source": "./plugins/financial-modeling",
+      "author": {
+        "name": "fleeged"
+      },
+      "category": "finance",
+      "keywords": ["dcf", "valuation", "monte-carlo", "sensitivity-analysis", "scenario-planning"]
+    },
+    {
       "name": "core",
       "description": "Mathematical and statistical foundations required by all other finance-skills plugins. Always installed — every plugin implicitly depends on core.",
       "version": "1.0.0",

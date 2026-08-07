@@ -1,0 +1,53 @@
+financial-modeling plugin
+=========================
+
+This plugin includes code derived from third-party sources.
+
+--------------------------------------------------------------------------
+dcf_model.py, sensitivity_analysis.py
+--------------------------------------------------------------------------
+
+Vendored from the Anthropic Cookbook, at
+skills/custom_skills/creating-financial-models/, and used essentially
+unmodified.
+
+    Source:  https://github.com/anthropics/anthropic-cookbook
+    License: MIT
+    Copyright (c) 2023 Anthropic
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------
+monte_carlo.py
+--------------------------------------------------------------------------
+
+Original to this plugin. The upstream Cookbook skill advertised Monte Carlo
+simulation in its SKILL.md but shipped no implementation of it; this module
+fills that gap and adds the DCF integration layer.
+
+It embeds two standard numerical approximations so that scipy is not required:
+
+  - Inverse normal CDF: Peter Acklam's rational approximation
+    (relative error < 1.15e-9)
+  - Error function: Abramowitz & Stegun, Handbook of Mathematical Functions,
+    formula 7.1.26 (absolute error < 1.5e-7)
+
+Both are long-published algorithms in the public domain.

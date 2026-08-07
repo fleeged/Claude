@@ -1,0 +1,17 @@
+{
+  "name": "financial-modeling",
+  "description": "DCF valuation, sensitivity analysis, scenario planning, and Monte Carlo simulation for investment and project decisions. Executable Python models, not guidance only.",
+  "version": "1.0.0",
+  "author": {
+    "name": "fleeged"
+  },
+  "keywords": [
+    "dcf",
+    "valuation",
+    "monte-carlo",
+    "sensitivity-analysis",
+    "scenario-planning"
+  ],
+  "dependencies": [],
+  "scripts": true
+}
