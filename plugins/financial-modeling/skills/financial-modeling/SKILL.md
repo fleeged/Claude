@@ -16,6 +16,9 @@ Executable models for valuation under uncertainty. Three scripts in `scripts/`:
 Requires `numpy` and `pandas`. `scipy` is optional and needed only for the
 `PERT` distribution.
 
+Tests live in `tests/` and run with `python tests/run_tests.py` — 84 checks
+covering the simulation engine and every example below.
+
 ## Choosing the right tool
 
 These four techniques answer genuinely different questions. Pick deliberately:
